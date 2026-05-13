@@ -1,0 +1,165 @@
+---
+export interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description = "Daily SEO news digest — filtered, categorized, and actionable." } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{title}</title>
+  <meta name="description" content={description}>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style is:global>
+    :root {
+      --bg: #0f0f23;
+      --surface: #1a1a2e;
+      --surface-light: #252540;
+      --text: #e0e0f0;
+      --text-dim: #8b8bb0;
+      --accent: #FF6D05;
+      --accent-hover: #e06000;
+      --action: #ef4444;
+      --watch: #f59e0b;
+      --learn: #22c55e;
+      --fyi: #6366f1;
+      --border: rgba(255,255,255,0.08);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { max-width: 900px; margin: 0 auto; padding: 0 1.5rem; }
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    header .container { display: flex; align-items: center; justify-content: space-between; }
+    .logo { font-size: 1.25rem; font-weight: 700; color: var(--text); }
+    .logo span { color: var(--accent); }
+    .tag { font-size: 0.75rem; color: var(--text-dim); background: var(--surface-light); padding: 0.25rem 0.75rem; border-radius: 999px; }
+    main { padding: 2rem 0 4rem; }
+    h1 { font-size: 2rem; font-weight: 700; margin-bottom: 0.5rem; }
+    h2 { font-size: 1.5rem; font-weight: 600; margin: 2rem 0 1rem; }
+    h3 { font-size: 1.125rem; font-weight: 600; margin: 1.5rem 0 0.5rem; }
+    .subtitle { color: var(--text-dim); font-size: 1rem; margin-bottom: 2rem; }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+      transition: border-color 0.2s;
+    }
+    .card:hover { border-color: rgba(255,109,5,0.3); }
+    .card-header { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem; }
+    .card-date { font-size: 0.875rem; color: var(--text-dim); }
+    .card-title { font-size: 1.125rem; font-weight: 600; color: var(--text); }
+    .card-stats { display: flex; gap: 1rem; margin-top: 0.75rem; font-size: 0.875rem; }
+    .stat { display: flex; align-items: center; gap: 0.35rem; }
+    .stat-red { color: #ef4444; }
+    .stat-yellow { color: #f59e0b; }
+    .stat-green { color: #22c55e; }
+    .stat-blue { color: #6366f1; }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.2rem 0.6rem;
+      border-radius: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.025em;
+    }
+    .badge-action { background: rgba(239,68,68,0.15); color: #ef4444; }
+    .badge-watch { background: rgba(245,158,11,0.15); color: #f59e0b; }
+    .badge-learn { background: rgba(34,197,94,0.15); color: #22c55e; }
+    .badge-fyi { background: rgba(99,102,241,0.15); color: #6366f1; }
+    article { margin-bottom: 1.5rem; }
+    article h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.5rem; }
+    article h3 a { color: var(--text); }
+    article h3 a:hover { color: var(--accent); text-decoration: none; }
+    article .source { font-size: 0.8rem; color: var(--text-dim); margin-bottom: 0.5rem; }
+    article .summary { font-size: 0.9rem; color: var(--text-dim); line-height: 1.6; }
+    article .tags { margin-top: 0.5rem; }
+    article .tag-item {
+      display: inline-block;
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      background: var(--surface-light);
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      margin-right: 0.35rem;
+    }
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin: 2.5rem 0 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .empty { text-align: center; color: var(--text-dim); padding: 4rem 0; }
+    .empty-icon { font-size: 3rem; margin-bottom: 1rem; }
+    .back { display: inline-flex; align-items: center; gap: 0.5rem; margin-bottom: 1.5rem; font-size: 0.9rem; }
+    footer { text-align: center; padding: 2rem 0; color: var(--text-dim); font-size: 0.8rem; border-top: 1px solid var(--border); margin-top: 2rem; }
+    .report-list { display: grid; gap: 1rem; }
+    .report-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+      transition: all 0.2s;
+    }
+    .report-item:hover { border-color: rgba(255,109,5,0.3); transform: translateY(-1px); }
+    .report-item-left { display: flex; align-items: center; gap: 1rem; }
+    .report-item-date { font-weight: 600; color: var(--text); }
+    .report-item-meta { font-size: 0.8rem; color: var(--text-dim); }
+    .report-item-arrow { color: var(--text-dim); }
+    @media (max-width: 640px) {
+      h1 { font-size: 1.5rem; }
+      .card { padding: 1rem; }
+      .container { padding: 0 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="/" class="logo">SEO <span>Digest</span></a>
+      <span class="tag">Daily</span>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <slot />
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      Generated daily from 8 SEO sources · No API keys needed
+    </div>
+  </footer>
+</body>
+</html>
