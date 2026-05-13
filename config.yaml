@@ -1,0 +1,78 @@
+# SEO News Digest — Configuration
+# Add/remove sources as needed. Keep RSS feeds only.
+
+sources:
+  - name: "Google Search Central"
+    url: "https://developers.google.com/search/blog/rss"
+    priority: high
+    
+  - name: "Search Engine Roundtable"
+    url: "https://www.seroundtable.com/feed"
+    priority: high
+    
+  - name: "Search Engine Journal"
+    url: "https://www.searchenginejournal.com/feed/"
+    priority: medium
+    
+  - name: "Search Engine Land"
+    url: "https://searchengineland.com/feed/"
+    priority: medium
+    
+  - name: "Moz Blog"
+    url: "https://moz.com/blog/rss"
+    priority: medium
+    
+  - name: "Ahrefs Blog"
+    url: "https://ahrefs.com/blog/feed/"
+    priority: medium
+    
+  - name: "SEMrush Blog"
+    url: "https://www.semrush.com/blog/feed/"
+    priority: medium
+    
+  - name: "Google Search Liaison"
+    url: "https://searchliaison.com/feed/"
+    priority: high
+
+# Keywords to flag for relevance scoring
+# These are matched against article titles + summaries
+relevance_keywords:
+  - "algorithm update"
+  - "core update"
+  - "google update"
+  - "ranking factor"
+  - "indexing"
+  - "crawl"
+  - "sitemap"
+  - "structured data"
+  - "schema"
+  - "core web vitals"
+  - "page experience"
+  - "mobile-first"
+  - "nofollow"
+  - "canonical"
+  - "internal link"
+  - "anchor text"
+  - "content optimization"
+  - "E-E-A-T"
+  - "helpful content"
+  - "AI overview"
+  - "SGE"
+  - "search generative"
+  - "local SEO"
+  - "product page"
+  - "landing page"
+  - "cannibalization"
+  - "duplicate content"
+  - "hreflang"
+  - "international SEO"
+
+# Number of articles to fetch per source (max)
+articles_per_source: 5
+
+# Report settings
+report:
+  output_dir: "reports"
+  max_headlines: 15
+  max_action_items: 8
+  max_learn_items: 5
