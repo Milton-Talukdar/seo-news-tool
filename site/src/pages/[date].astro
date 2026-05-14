@@ -7,7 +7,7 @@ export function getStaticPaths() {
   const reportsDir = path.join(process.cwd(), '..', 'reports');
   const paths: { params: { date: string } }[] = [];
   try {
-    const files = fs.readdirSync(reportsDir).filter(f => f.endsWith('.md'));
+    const files = fs.readdirSync(reportsDir).filter(f => f.endsWith('.md') && f !== 'weekly-latest.md');
     for (const file of files) {
       paths.push({ params: { date: file.replace('.md', '') } });
     }
