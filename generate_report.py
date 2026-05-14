@@ -8,6 +8,8 @@ from datetime import datetime, timezone
 from typing import List, Dict
 import yaml
 
+from ai_summarize import summarize_article
+
 
 # Action trigger keywords — if these appear in title/summary, flag as actionable
 ACTION_TRIGGERS = [
@@ -61,27 +63,41 @@ def categorize_article(article: Dict) -> str:
     return "fyi"
 
 
-def format_article(article: Dict) -> str:
-    """Format a single article as markdown."""
+def format_article(article: Dict, use_ai: bool = True) -> str:
+    """Format a single article as markdown. Optionally uses AI-enhanced summaries."""
     title = article["title"]
     link = article["link"]
     source = article["source"]
-    summary = article.get("summary", "")
     matched = article.get("matched_keywords", [])
     
-    # Clean up summary (strip HTML tags if present)
-    summary = summary.replace("<p>", "").replace("</p>", " ")
-    summary = summary.replace("<br>", " ").replace("<br/>", " ")
-    summary = summary[:300] + "..." if len(summary) > 300 else summary
+    # Try AI summary first
+    ai_summary = None
+    if use_ai:
+        ai_summary = summarize_article(article)
     
     lines = [f"**[{title}]({link})** — *{source}*"]
     
-    if summary:
-        lines.append(f"> {summary.strip()}")
-    
-    if matched:
-        tags = ", ".join([f"`{k}`" for k in matched[:5]])
-        lines.append(f"> 🏷️  {tags}")
+    if ai_summary:
+        # AI-enhanced formatting
+        lines.append(f"> **{ai_summary['headline']}**")
+        lines.append(f"> {ai_summary['summary']}")
+        if ai_summary.get("tags"):
+            tags = " · ".join([f"`{t}`" for t in ai_summary["tags"]])
+            lines.append(f"> {tags}")
+    else:
+        # Fallback to raw summary
+        summary = article.get("summary", "")
+        # Clean up summary (strip HTML tags if present)
+        import re
+        summary = re.sub(r"<[^>]+>", " ", summary)
+        summary = summary[:280] + "..." if len(summary) > 280 else summary
+        
+        if summary.strip():
+            lines.append(f"> {summary.strip()}")
+        
+        if matched:
+            tags = " · ".join([f"`{k}`" for k in matched[:5]])
+            lines.append(f"> {tags}")
     
     return "\n".join(lines)
 
@@ -128,7 +144,7 @@ def generate_report(articles: List[Dict], config: Dict) -> str:
             "",
         ])
         for article in categorized["action"][:max_action]:
-            lines.append(format_article(article))
+            lines.append(format_article(article, use_ai=True))
             lines.append("")
         lines.append("---")
         lines.append("")
@@ -142,7 +158,7 @@ def generate_report(articles: List[Dict], config: Dict) -> str:
             "",
         ])
         for article in categorized["watch"][:max_action]:
-            lines.append(format_article(article))
+            lines.append(format_article(article, use_ai=True))
             lines.append("")
         lines.append("---")
         lines.append("")
@@ -156,7 +172,7 @@ def generate_report(articles: List[Dict], config: Dict) -> str:
             "",
         ])
         for article in categorized["learn"][:max_learn]:
-            lines.append(format_article(article))
+            lines.append(format_article(article, use_ai=True))
             lines.append("")
         lines.append("---")
         lines.append("")

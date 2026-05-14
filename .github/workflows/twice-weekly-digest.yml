@@ -26,6 +26,9 @@ jobs:
 
       - name: Generate report
         run: python run.py
+        env:
+          CLOUDFLARE_AI_TOKEN: ${{ secrets.CLOUDFLARE_AI_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
       - name: Generate weekly summary
         run: python generate_weekly.py
