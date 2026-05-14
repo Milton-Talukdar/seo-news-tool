@@ -34,6 +34,52 @@ sources:
     url: "https://searchliaison.com/feed/"
     priority: high
 
+  # ── Twitter/X Early Signals (Free via RSSHub) ──
+  # NOTE: Public RSSHub instances are often rate-limited by Twitter.
+  # For reliable Twitter feeds, self-host RSSHub or use nitter instances.
+  # These URLs work intermittently but catch breaking news when they do.
+  - name: "Twitter: Google Search Liaison"
+    url: "https://rsshub.app/twitter/user/searchliaison"
+    priority: high
+    type: social
+    
+  - name: "Twitter: John Mueller"
+    url: "https://rsshub.app/twitter/user/JohnMu"
+    priority: high
+    type: social
+    
+  - name: "Twitter: Barry Schwartz"
+    url: "https://rsshub.app/twitter/user/rustybrick"
+    priority: high
+    type: social
+    
+  - name: "Twitter: Danny Sullivan"
+    url: "https://rsshub.app/twitter/user/dannysullivan"
+    priority: medium
+    type: social
+
+  # ── Google Search Status (Free JSON API) ──
+  - name: "Google Search Status"
+    url: "https://status.search.google.com/incidents.json"
+    priority: high
+    type: status
+
+  # ── Reddit Community Pulse (Free native RSS) ──
+  - name: "Reddit: r/SEO"
+    url: "https://www.reddit.com/r/SEO/top/.rss?t=day"
+    priority: medium
+    type: social
+    
+  - name: "Reddit: r/bigseo"
+    url: "https://www.reddit.com/r/bigseo/top/.rss?t=day"
+    priority: medium
+    type: social
+    
+  - name: "Reddit: r/TechSEO"
+    url: "https://www.reddit.com/r/TechSEO/top/.rss?t=day"
+    priority: medium
+    type: social
+
 # Keywords to flag for relevance scoring
 # These are matched against article titles + summaries
 relevance_keywords:
