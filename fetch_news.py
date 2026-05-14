@@ -186,10 +186,12 @@ def fetch_all_news(config: Dict) -> List[Dict]:
         
         print(f"  → {name}...", end=" ")
         
+        source_limit = source.get("limit", max_per_source)
+        
         if source_type == "status":
             articles = fetch_google_status()
         else:
-            articles = fetch_feed(url, name, max_per_source, source_type)
+            articles = fetch_feed(url, name, source_limit, source_type)
         
         print(f"{len(articles)} articles")
         
@@ -213,6 +215,10 @@ def fetch_all_news(config: Dict) -> List[Dict]:
             
             # Score relevance
             score, matched = score_relevance(article, keywords)
+            
+            # Boost scores for featured sources
+            if "Search Engine Journal" in name:
+                score += 2  # Featured source — higher visibility
             
             # Boost scores for high-priority social accounts
             if source_type == "social":

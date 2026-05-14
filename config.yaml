@@ -12,7 +12,8 @@ sources:
     
   - name: "Search Engine Journal"
     url: "https://www.searchenginejournal.com/feed/"
-    priority: medium
+    priority: high
+    limit: 8  # Featured source — fetch more articles
     
   - name: "Search Engine Land"
     url: "https://searchengineland.com/feed/"
@@ -114,6 +115,7 @@ relevance_keywords:
   - "international SEO"
 
 # Number of articles to fetch per source (max)
+# Sources can override this with a 'limit' field
 articles_per_source: 5
 
 # Report settings

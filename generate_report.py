@@ -96,6 +96,15 @@ def generate_report(articles: List[Dict], config: Dict) -> str:
         cat = categorize_article(article)
         categorized[cat].append(article)
     
+    # Sort each category: Search Engine Journal articles first, then by relevance
+    for cat in categorized:
+        categorized[cat].sort(
+            key=lambda a: (
+                0 if "Search Engine Journal" in a.get("source", "") else 1,
+                -a.get("relevance_score", 0)
+            )
+        )
+    
     report_cfg = config.get("report", {})
     max_headlines = report_cfg.get("max_headlines", 15)
     max_action = report_cfg.get("max_action_items", 8)

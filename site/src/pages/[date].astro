@@ -144,7 +144,7 @@ function countClass(emoji: string) {
             {item.type === 'article' ? (
               <>
                 <h3><a href={item.link} target="_blank" rel="noopener">{item.content}</a></h3>
-                <div class="source">{item.source}</div>
+                <div class="source">{item.source}{item.source === 'Search Engine Journal' && <span class="source-badge">★ Featured</span>}</div>
                 {item.summary && (
                   <div class="summary">
                     {item.summary.replace(/<[^>]+>/g, '').substring(0, 280)}
