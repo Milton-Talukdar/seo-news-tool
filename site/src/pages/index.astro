@@ -56,7 +56,7 @@ const totalFyi = reports.reduce((a, r) => a + r.stats.fyi, 0);
   <div class="hero">
     <div class="hero-badge">Live Digest</div>
     <h1>Daily SEO Digest</h1>
-    <p>Filtered, categorized, and actionable intelligence from blogs, Reddit, and official channels.</p>
+    <p>Twice-weekly intelligence from blogs, Reddit, and official channels.<br>Published every <strong>Tuesday</strong> and <strong>Friday</strong> at 2:30 PM IST.</p>
 
     {totalReports > 0 && (
       <div class="stats-bar">
@@ -72,7 +72,7 @@ const totalFyi = reports.reduce((a, r) => a + r.stats.fyi, 0);
     <div class="empty">
       <div class="empty-icon">📭</div>
       <h2>No reports yet</h2>
-      <p>Run <code>python run.py</code> locally to generate the first report, or wait for the GitHub Actions cron job.</p>
+      <p>Run <code>python run.py</code> locally to generate the first report, or trigger the workflow manually from GitHub Actions.</p>
     </div>
   ) : (
     <div class="report-list">
