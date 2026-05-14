@@ -3,20 +3,15 @@ import Layout from '../layouts/Layout.astro';
 import fs from 'fs';
 import path from 'path';
 
-// Generate all paths from existing reports
 export function getStaticPaths() {
   const reportsDir = path.join(process.cwd(), '..', 'reports');
   const paths: { params: { date: string } }[] = [];
-  
   try {
     const files = fs.readdirSync(reportsDir).filter(f => f.endsWith('.md'));
     for (const file of files) {
       paths.push({ params: { date: file.replace('.md', '') } });
     }
-  } catch (e) {
-    // No reports yet
-  }
-  
+  } catch (e) {}
   return paths;
 }
 
@@ -31,55 +26,49 @@ try {
   content = '# Report not found';
 }
 
-// Parse sections from markdown
 function parseReport(md: string) {
-  const sections: { title: string; level: number; content: string; emoji: string }[] = [];
+  const sections: { title: string; level: number; content: string; emoji: string; className: string }[] = [];
   const lines = md.split('\n');
-  let currentSection: { title: string; level: number; content: string; emoji: string } | null = null;
-  
+  let currentSection: typeof sections[0] | null = null;
+
   for (const line of lines) {
     const headerMatch = line.match(/^(#{1,3})\s+(.*)/);
     if (headerMatch) {
       if (currentSection) sections.push(currentSection);
       const title = headerMatch[2].trim();
       const level = headerMatch[1].length;
-      
-      // Extract emoji from title
       const emojiMatch = title.match(/^(🔴|🟡|🟢|📰|📝)\s*/);
       const emoji = emojiMatch ? emojiMatch[1] : '';
       const cleanTitle = title.replace(/^(🔴|🟡|🟢|📰|📝)\s*/, '');
-      
-      currentSection = { title: cleanTitle, level, content: '', emoji };
+
+      let className = '';
+      if (emoji === '🔴') className = 'action';
+      else if (emoji === '🟡') className = 'watch';
+      else if (emoji === '🟢') className = 'learn';
+      else if (emoji === '📰') className = 'fyi';
+
+      currentSection = { title: cleanTitle, level, content: '', emoji, className };
     } else if (currentSection) {
       currentSection.content += line + '\n';
     }
   }
   if (currentSection) sections.push(currentSection);
-  
   return sections;
 }
 
-// Convert markdown content to HTML-like structure
 function parseContent(content: string) {
   const items: { type: string; content: string; link?: string; source?: string; summary?: string; tags?: string[] }[] = [];
   const lines = content.trim().split('\n');
-  
+
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i].trim();
-    
-    // Article link: **[Title](url)** — *Source*
+
     const articleMatch = line.match(/^\*\*\[(.*?)\]\((.*?)\)\*\*\s*—\s*\*(.*?)\*/);
     if (articleMatch) {
-      items.push({
-        type: 'article',
-        content: articleMatch[1],
-        link: articleMatch[2],
-        source: articleMatch[3],
-      });
+      items.push({ type: 'article', content: articleMatch[1], link: articleMatch[2], source: articleMatch[3] });
       continue;
     }
-    
-    // Summary: > text
+
     const summaryMatch = line.match(/^>(.*)/);
     if (summaryMatch && items.length > 0) {
       const last = items[items.length - 1];
@@ -88,8 +77,7 @@ function parseContent(content: string) {
       }
       continue;
     }
-    
-    // Tags: 🏷️ `tag1`, `tag2`
+
     const tagMatch = line.match(/🏷️\s*(.*)/);
     if (tagMatch && items.length > 0) {
       const last = items[items.length - 1];
@@ -99,19 +87,13 @@ function parseContent(content: string) {
       }
       continue;
     }
-    
-    // FYI bullet: - **[Title](url)** — *Source*
+
     const fyiMatch = line.match(/^-\s*\*\*\[(.*?)\]\((.*?)\)\*\*\s*—\s*\*(.*?)\*/);
     if (fyiMatch) {
-      items.push({
-        type: 'fyi',
-        content: fyiMatch[1],
-        link: fyiMatch[2],
-        source: fyiMatch[3],
-      });
+      items.push({ type: 'fyi', content: fyiMatch[1], link: fyiMatch[2], source: fyiMatch[3] });
     }
   }
-  
+
   return items;
 }
 
@@ -121,44 +103,44 @@ const formatDate = (dateStr: string) => {
   return d.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
 };
 
-// Get badge class based on emoji
-function getBadgeClass(emoji: string) {
+function countClass(emoji: string) {
   switch (emoji) {
-    case '🔴': return 'badge-action';
-    case '🟡': return 'badge-watch';
-    case '🟢': return 'badge-learn';
-    case '📰': return 'badge-fyi';
+    case '🔴': return 'count-action';
+    case '🟡': return 'count-watch';
+    case '🟢': return 'count-learn';
+    case '📰': return 'count-fyi';
     default: return '';
   }
 }
 ---
 
 <Layout title={`SEO Digest — ${formatDate(date)}`}>
-  <a href="/" class="back">← Back to all reports</a>
-  <h1>{formatDate(date)}</h1>
-  
+  <a href="/" class="back">← All reports</a>
+  <h1 style="font-size: 1.875rem; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.25rem;">{formatDate(date)}</h1>
+  <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1.5rem;">Daily intelligence summary</p>
+
   {sections.map(section => {
     const items = parseContent(section.content);
-    const badgeClass = getBadgeClass(section.emoji);
-    
-    if (section.level === 1) return null; // Skip main title
-    
+    const countCls = countClass(section.emoji);
+
+    if (section.level === 1) return null;
+
     return (
       <div>
-        <div class="section-title">
+        <div class="section-header">
           <span>{section.emoji}</span>
-          <span>{section.title}</span>
-          {items.length > 0 && <span class={`badge ${badgeClass}`}>{items.length} items</span>}
+          <h2>{section.title}</h2>
+          {items.length > 0 && <span class={`section-count ${countCls}`}>{items.length}</span>}
         </div>
-        
+
         {section.content.includes('require immediate attention') || section.content.includes('monitor these') || section.content.includes('new concepts') || section.content.includes('everything else') ? (
-          <p class="subtitle" style="margin-top: -0.5rem; margin-bottom: 1rem;">
+          <p style="color: var(--text-secondary); font-size: 0.9rem; margin: -0.5rem 0 1rem;">
             {section.content.split('\n')[0].replace(/^>/, '').trim()}
           </p>
         ) : null}
-        
+
         {items.map(item => (
-          <article class="card">
+          <article class={`card ${section.className}`}>
             {item.type === 'article' ? (
               <>
                 <h3><a href={item.link} target="_blank" rel="noopener">{item.content}</a></h3>
@@ -166,7 +148,7 @@ function getBadgeClass(emoji: string) {
                 {item.summary && (
                   <div class="summary">
                     {item.summary.replace(/<[^>]+>/g, '').substring(0, 280)}
-                    {item.summary.length > 280 ? '...' : ''}
+                    {item.summary.length > 280 ? '…' : ''}
                   </div>
                 )}
                 {item.tags && item.tags.length > 0 && (

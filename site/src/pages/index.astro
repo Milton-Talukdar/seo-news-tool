@@ -3,7 +3,6 @@ import Layout from '../layouts/Layout.astro';
 import fs from 'fs';
 import path from 'path';
 
-// Read all reports from parent directory
 const reportsDir = path.join(process.cwd(), '..', 'reports');
 let reports: { date: string; filename: string; stats: { action: number; watch: number; learn: number; fyi: number } }[] = [];
 
@@ -12,17 +11,15 @@ try {
     .filter(f => f.endsWith('.md'))
     .sort()
     .reverse();
-  
+
   for (const file of files) {
     const content = fs.readFileSync(path.join(reportsDir, file), 'utf-8');
     const date = file.replace('.md', '');
-    
-    // Parse stats from content
     const actionMatch = content.match(/🔴 Action:\s*(\d+)/);
     const watchMatch = content.match(/🟡 Watch:\s*(\d+)/);
     const learnMatch = content.match(/🟢 Learn:\s*(\d+)/);
     const fyiMatch = content.match(/📰 FYI:\s*(\d+)/);
-    
+
     reports.push({
       date,
       filename: file,
@@ -43,54 +40,59 @@ const formatDate = (dateStr: string) => {
   return d.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
 };
 
+const formatShortDate = (dateStr: string) => {
+  const d = new Date(dateStr + 'T00:00:00');
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+};
+
 const totalReports = reports.length;
+const totalAction = reports.reduce((a, r) => a + r.stats.action, 0);
+const totalWatch = reports.reduce((a, r) => a + r.stats.watch, 0);
+const totalLearn = reports.reduce((a, r) => a + r.stats.learn, 0);
+const totalFyi = reports.reduce((a, r) => a + r.stats.fyi, 0);
 ---
 
 <Layout title="SEO News Digest — Daily Reports">
-  <h1>Daily SEO Digest</h1>
-  <p class="subtitle">Automated daily reports from 8 authoritative SEO sources — categorized into Action, Watch, Learn, and FYI.</p>
-  
+  <div class="hero">
+    <div class="hero-badge">Live Digest</div>
+    <h1>Daily SEO Digest</h1>
+    <p>Filtered, categorized, and actionable intelligence from blogs, Reddit, and official channels.</p>
+
+    {totalReports > 0 && (
+      <div class="stats-bar">
+        <span class="stat-pill"><span class="dot dot-red"></span>{totalAction} Action</span>
+        <span class="stat-pill"><span class="dot dot-amber"></span>{totalWatch} Watch</span>
+        <span class="stat-pill"><span class="dot dot-green"></span>{totalLearn} Learn</span>
+        <span class="stat-pill"><span class="dot dot-blue"></span>{totalFyi} FYI</span>
+      </div>
+    )}
+  </div>
+
   {totalReports === 0 ? (
     <div class="empty">
       <div class="empty-icon">📭</div>
-      <p>No reports generated yet.</p>
-      <p style="margin-top: 0.5rem;">Run <code style="background: var(--surface-light); padding: 0.2rem 0.5rem; border-radius: 4px;">python run.py</code> locally to generate the first report, or wait for the GitHub Actions cron job.</p>
+      <h2>No reports yet</h2>
+      <p>Run <code>python run.py</code> locally to generate the first report, or wait for the GitHub Actions cron job.</p>
     </div>
   ) : (
-    <>
-      <div class="card">
-        <div class="card-header">
-          <span style="font-size: 1.5rem;">📊</span>
-          <div>
-            <div class="card-title">{totalReports} report{totalReports !== 1 ? 's' : ''} generated</div>
-            <div class="card-date">Latest: {formatDate(reports[0].date)}</div>
-          </div>
-        </div>
-        <div class="card-stats">
-          <span class="stat stat-red">🔴 {reports.reduce((a, r) => a + r.stats.action, 0)} action items</span>
-          <span class="stat stat-yellow">🟡 {reports.reduce((a, r) => a + r.stats.watch, 0)} watch items</span>
-          <span class="stat stat-green">🟢 {reports.reduce((a, r) => a + r.stats.learn, 0)} learn items</span>
-          <span class="stat stat-blue">📰 {reports.reduce((a, r) => a + r.stats.fyi, 0)} FYI items</span>
-        </div>
-      </div>
-      
-      <h2>All Reports</h2>
-      <div class="report-list">
-        {reports.map(report => (
-          <a href={`/${report.date}`} class="report-item">
-            <div class="report-item-left">
-              <span style="font-size: 1.25rem;">📰</span>
-              <div>
-                <div class="report-item-date">{formatDate(report.date)}</div>
-                <div class="report-item-meta">
-                  🔴 {report.stats.action} · 🟡 {report.stats.watch} · 🟢 {report.stats.learn} · 📰 {report.stats.fyi}
-                </div>
+    <div class="report-list">
+      {reports.map((report, i) => (
+        <a href={`/${report.date}`} class="report-item">
+          <div class="report-item-left">
+            <div class="report-item-icon">📰</div>
+            <div>
+              <div class="report-item-date">{formatDate(report.date)}</div>
+              <div class="report-item-meta">
+                {report.stats.action > 0 && `🔴 ${report.stats.action} action · `}
+                {report.stats.watch > 0 && `🟡 ${report.stats.watch} watch · `}
+                {report.stats.learn > 0 && `🟢 ${report.stats.learn} learn · `}
+                {report.stats.fyi > 0 && `📰 ${report.stats.fyi} FYI`}
               </div>
             </div>
-            <span class="report-item-arrow">→</span>
-          </a>
-        ))}
-      </div>
-    </>
+          </div>
+          <span class="report-item-arrow">→</span>
+        </a>
+      ))}
+    </div>
   )}
 </Layout>
