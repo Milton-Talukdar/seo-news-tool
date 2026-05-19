@@ -1,8 +1,8 @@
-# Week 20, 2026 Summary
+# Week 21, 2026 Summary
 
-**2026-05-14 → 2026-05-15** · 2 reports · 41 articles
+**2026-05-14 → 2026-05-19** · 3 reports · 68 articles
 
-> 🔴 14 Action · 🟡 10 Watch · 🟢 10 Learn · 📰 7 FYI
+> 🔴 19 Action · 🟡 18 Watch · 🟢 15 Learn · 📰 16 FYI
 
 ---
 
@@ -46,17 +46,17 @@ The most important articles from the week, ranked by impact.
 
 ## 📊 Source Breakdown
 
-- **Search Engine Journal**: 16 articles
-- **Reddit: r/SEO**: 9 articles
-- **Ahrefs Blog**: 6 articles
-- **Reddit: r/TechSEO**: 4 articles
-- **Reddit: r/bigseo**: 3 articles
+- **Search Engine Journal**: 24 articles
+- **Reddit: r/SEO**: 14 articles
+- **Reddit: r/TechSEO**: 9 articles
+- **Ahrefs Blog**: 9 articles
+- **Reddit: r/bigseo**: 6 articles
 
 ---
 
 ## 🏷️ Trending Topics
 
-`AI overview` (4) · `crawl` (3) · `schema` (3) · `sitemap` (2) · `indexing` (1) · `ranking factor` (1) · `landing page` (1) · `cannibalization` (1)
+`crawl` (5) · `AI overview` (4) · `indexing` (4) · `schema` (3) · `sitemap` (2) · `ranking factor` (1) · `landing page` (1) · `cannibalization` (1)
 
 ---
 
@@ -68,4 +68,4 @@ Based on this week's signals:
 - Monitor any 🔴 Action items you haven't addressed yet
 - Review 🟡 Watch items for updates
 
-*Generated: 2026-05-15 11:14 UTC*
+*Generated: 2026-05-19 11:56 UTC*
