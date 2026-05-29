@@ -1,8 +1,8 @@
-# Week 21, 2026 Summary
+# Week 22, 2026 Summary
 
-**2026-05-19 → 2026-05-22** · 2 reports · 49 articles
+**2026-05-29 → 2026-05-29** · 1 report · 23 articles
 
-> 🔴 13 Action · 🟡 10 Watch · 🟢 10 Learn · 📰 16 FYI
+> 🔴 8 Action · 🟡 6 Watch · 🟢 3 Learn · 📰 6 FYI
 
 ---
 
@@ -10,53 +10,53 @@
 
 The most important articles from the week, ranked by impact.
 
-1. **[Google-Agent: The Web’s New Visitor Just Got An Identity via @sejournal, @slobodanmanic](https://www.searchenginejournal.com/google-agent-the-webs-new-visitor-just-got-an-identity/571508/)** 🔴
-   — *Search Engine Journal* · 2026-05-19
-   > Google-Agent introduces a new class of web visitor: AI agents acting on behalf of users, not crawlers indexing content....
+1. **[Google Preferred Sources Hit 345K, Expand Into AI Search via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-preferred-sources-hit-345k-expand-into-ai-search/576032/)** 🔴
+   — *Search Engine Journal* · 2026-05-29
+   > Google says users have selected 345,000 Preferred Sources, which now appear in AI Overviews and AI Mode alongside new link carousels....
 
-2. **[Anthropic’s Infrastructure Crisis – What It Means for Marketers & SEO Pros via @sejournal, @gregjarboe](https://www.searchenginejournal.com/anthropics-infrastructure-crisis-what-it-means-for-marketers-seo-pros/574258/)** 🔴
-   — *Search Engine Journal* · 2026-05-19
-   > Anthropic's 80-fold growth crisis mirrors Google's 1999 infrastructure crunch. The decisions made under pressure will reshape the tools marketers rely on....
+2. **[Why Enterprise SEO Recommendations Fail – It’s Psychological, Not Technical via @sejournal, @billhunt](https://www.searchenginejournal.com/why-enterprise-seo-recommendations-fail-its-psychological-not-technical/574378/)** 🔴
+   — *Search Engine Journal* · 2026-05-29
+   > Reframing "problems" as "opportunities" isn't corporate spin. It's the psychological condition that makes enterprise change actually happen....
 
-3. **[What Google’s UCP Tells Us About Agent-Ready Websites via @sejournal, @slobodanmanic](https://www.searchenginejournal.com/what-googles-ucp-tells-us-about-agent-ready-websites/574220/)** 🔴
-   — *Search Engine Journal* · 2026-05-19
-   > Google built UCP for Shopping. The architecture underneath it is a blueprint every website will eventually need to implement, regardless of whether you sell anything....
+3. **[YouTube Now Auto-Detects AI Content, Labels It For Viewers via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/youtube-now-auto-detects-ai-content-labels-it-for-viewers/576015/)** 🔴
+   — *Search Engine Journal* · 2026-05-29
+   > YouTube is moving AI disclosure labels to more visible spots and adding automatic detection for undisclosed photorealistic AI content on videos....
 
-4. **[Google Begins Rolling Out May 2026 Core Update via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-begins-rolling-out-may-2026-core-update/575589/)** 🔴
-   — *Search Engine Journal* · 2026-05-22
-   > Google began rolling out the May 2026 core update, the second broad core update this year. It may take up to two weeks to complete....
+4. **[Is Performance Max Actually Better Than Running Separate Campaigns? – Ask A PPC via @sejournal, @brookeosmundson](https://www.searchenginejournal.com/ask-a-ppc-is-performance-max-actually-better-than-running-separate-campaigns/573174/)** 🔴
+   — *Search Engine Journal* · 2026-05-29
+   > See when Performance Max drives better efficiency and when separate campaigns offer necessary control....
 
-5. **[The New Rules of Search: Key AEO & Content Marketing Trends for 2026 via @sejournal, @hethr_campbell](https://www.searchenginejournal.com/the-new-rules-of-search-key-aeo-content-marketing-trends-for-2026-recap/575064/)** 🔴
-   — *Search Engine Journal* · 2026-05-22
-   > Enhance your AEO strategy with insights on content that drives visibility in AI search engines. Discover top-performing tactics now....
+5. **[WordPress Market Share Declines For Six Months In A Row via @sejournal, @martinibuster](https://www.searchenginejournal.com/wordpress-market-share-in-decline/576042/)** 🔴
+   — *Search Engine Journal* · 2026-05-29
+   > WordPress is losing market share for six months in a row as competing platforms hold steady or grow more popular....
 
-6. **[How To Stress-Test A Staging Environment To Surface Risks Pre-Launch  – Ask An SEO via @sejournal, @HelenPollitt1](https://www.searchenginejournal.com/ask-an-seo-how-do-you-stress-test-a-staging-environment/573559/)** 🔴
-   — *Search Engine Journal* · 2026-05-22
-   > Launching a redesign or migration? The staging environment tests in this guide will catch SEO issues before they cost you rankings....
+6. **[You’re Using AI At The Execution Layer. The Value Is In The Judgment Layer via @sejournal, @DuaneForrester](https://www.searchenginejournal.com/youre-using-ai-at-the-execution-layer-the-value-is-in-the-judgment-layer/575747/)** 🔴
+   — *Search Engine Journal* · 2026-05-29
+   > The six-mode taxonomy maps almost exactly onto the split between execution-layer and judgment-layer work. Most practitioners are living in the execution layer....
 
-7. **[LLM Guidance Doesn’t Transfer The Way SEO Guidance Did via @sejournal, @DuaneForrester](https://www.searchenginejournal.com/llm-guidance-doesnt-transfer-the-way-seo-guidance-did/575077/)** 🔴
-   — *Search Engine Journal* · 2026-05-22
-   > The shared standards that once made one engine's guidance apply to all of them never got built between LLM providers. Optimization is no longer portable....
+7. **[How To See If Competitors Are Advertising In Your Customers’ ChatGPT Answers via @sejournal, @trendos_com](https://www.searchenginejournal.com/see-competitor-ads-chatgpt-trendos-spa/575883/)** 🟡
+   — *Search Engine Journal* · 2026-05-29
+   > Learn the manual process to track who is advertising in ChatGPT answers. Understand your competitors' strategies in real-time....
 
-8. **[When Marketing Leaders Can’t Explain Search Performance via @sejournal, @coreydmorris](https://www.searchenginejournal.com/when-marketing-leaders-cant-explain-search-performance/572464/)** 🔴
-   — *Search Engine Journal* · 2026-05-22
-   > How marketing leaders can translate search metrics into business outcomes, sharper reporting, and stronger executive confidence....
+8. **[The AI Sameness Trap Is Quietly Eroding Your SEO Competitive Advantage via @sejournal, @TaylorDanRW](https://www.searchenginejournal.com/ai-convergence-seo/575879/)** 🟢
+   — *Search Engine Journal* · 2026-05-29
+   > Machines writing for machines is a race to the bottom. Here's how to reintroduce human thinking before your brand disappears into the wallpaper....
 
 ---
 
 ## 📊 Source Breakdown
 
-- **Search Engine Journal**: 16 articles
-- **Reddit: r/TechSEO**: 7 articles
-- **Reddit: r/SEO**: 7 articles
-- **Ahrefs Blog**: 6 articles
-- **SEMrush Blog**: 6 articles
+- **Search Engine Journal**: 8 articles
+- **Reddit: r/bigseo**: 4 articles
+- **Reddit: r/TechSEO**: 4 articles
+- **Reddit: r/SEO**: 4 articles
+- **Ahrefs Blog**: 3 articles
 
 ---
 
 ## 🏷️ Trending Topics
 
-`indexing` (3) · `crawl` (3) · `core update` (3) · `google update` (1) · `hreflang` (1) · `internal link` (1)
+`sitemap` (3) · `crawl` (2) · `AI overview` (1) · `core update` (1) · `indexing` (1) · `schema` (1) · `internal link` (1) · `canonical` (1)
 
 ---
 
@@ -68,4 +68,4 @@ Based on this week's signals:
 - Monitor any 🔴 Action items you haven't addressed yet
 - Review 🟡 Watch items for updates
 
-*Generated: 2026-05-22 11:39 UTC*
+*Generated: 2026-05-29 12:10 UTC*
