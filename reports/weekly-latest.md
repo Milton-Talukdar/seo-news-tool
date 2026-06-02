@@ -1,8 +1,8 @@
-# Week 22, 2026 Summary
+# Week 23, 2026 Summary
 
-**2026-05-29 → 2026-05-29** · 1 report · 23 articles
+**2026-05-29 → 2026-06-02** · 2 reports · 46 articles
 
-> 🔴 8 Action · 🟡 6 Watch · 🟢 3 Learn · 📰 6 FYI
+> 🔴 16 Action · 🟡 8 Watch · 🟢 8 Learn · 📰 14 FYI
 
 ---
 
@@ -34,29 +34,29 @@ The most important articles from the week, ranked by impact.
    — *Search Engine Journal* · 2026-05-29
    > The six-mode taxonomy maps almost exactly onto the split between execution-layer and judgment-layer work. Most practitioners are living in the execution layer....
 
-7. **[How To See If Competitors Are Advertising In Your Customers’ ChatGPT Answers via @sejournal, @trendos_com](https://www.searchenginejournal.com/see-competitor-ads-chatgpt-trendos-spa/575883/)** 🟡
-   — *Search Engine Journal* · 2026-05-29
-   > Learn the manual process to track who is advertising in ChatGPT answers. Understand your competitors' strategies in real-time....
+7. **[Amazon Vs. Perplexity: The CFAA Case That Decides Whether AI Agents Can Visit Your Website via @sejournal, @slobodanmanic](https://www.searchenginejournal.com/amazon-vs-perplexity-the-cfaa-case-that-decides-whether-ai-agents-can-visit-your-website/575499/)** 🔴
+   — *Search Engine Journal* · 2026-06-02
+   > Understand the challenges of AI agents visit website authorization. This case raises critical questions about technology and legal rights....
 
-8. **[The AI Sameness Trap Is Quietly Eroding Your SEO Competitive Advantage via @sejournal, @TaylorDanRW](https://www.searchenginejournal.com/ai-convergence-seo/575879/)** 🟢
-   — *Search Engine Journal* · 2026-05-29
-   > Machines writing for machines is a race to the bottom. Here's how to reintroduce human thinking before your brand disappears into the wallpaper....
+8. **[Google CEO Sundar Pichai Downplays Google Zero Concerns via @sejournal, @martinibuster](https://www.searchenginejournal.com/google-ceo-sundar-pichai-downplays-google-zero-concerns/577489/)** 🔴
+   — *Search Engine Journal* · 2026-06-02
+   > Google CEO Sundar Pichai downplays Google Zero concerns, saying low-quality clicks are being filtered out....
 
 ---
 
 ## 📊 Source Breakdown
 
-- **Search Engine Journal**: 8 articles
-- **Reddit: r/bigseo**: 4 articles
-- **Reddit: r/TechSEO**: 4 articles
-- **Reddit: r/SEO**: 4 articles
-- **Ahrefs Blog**: 3 articles
+- **Search Engine Journal**: 16 articles
+- **Reddit: r/TechSEO**: 8 articles
+- **Reddit: r/bigseo**: 6 articles
+- **Reddit: r/SEO**: 6 articles
+- **Ahrefs Blog**: 5 articles
 
 ---
 
 ## 🏷️ Trending Topics
 
-`sitemap` (3) · `crawl` (2) · `AI overview` (1) · `core update` (1) · `indexing` (1) · `schema` (1) · `internal link` (1) · `canonical` (1)
+`crawl` (4) · `sitemap` (4) · `indexing` (3) · `core update` (2) · `schema` (2) · `internal link` (2) · `AI overview` (1) · `canonical` (1)
 
 ---
 
@@ -68,4 +68,4 @@ Based on this week's signals:
 - Monitor any 🔴 Action items you haven't addressed yet
 - Review 🟡 Watch items for updates
 
-*Generated: 2026-05-29 12:10 UTC*
+*Generated: 2026-06-02 12:35 UTC*
