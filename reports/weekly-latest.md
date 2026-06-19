@@ -1,8 +1,8 @@
 # Week 25, 2026 Summary
 
-**2026-06-12 → 2026-06-16** · 2 reports · 40 articles
+**2026-06-16 → 2026-06-19** · 2 reports · 39 articles
 
-> 🔴 15 Action · 🟡 9 Watch · 🟢 10 Learn · 📰 6 FYI
+> 🔴 14 Action · 🟡 9 Watch · 🟢 10 Learn · 📰 6 FYI
 
 ---
 
@@ -10,45 +10,45 @@
 
 The most important articles from the week, ranked by impact.
 
-1. **[UpdraftPlus WordPress Vulnerability Puts 3 Million Sites At Risk via @sejournal, @martinibuster](https://www.searchenginejournal.com/updraftplus-wordpress-vulnerability-puts-3-million-sites-at-risk/578912/)** 🔴
-   — *Search Engine Journal* · 2026-06-12
-   > Vulnerability enables attackers to take control of affected WordPress sites and install malicious files....
-
-2. **[Google Is Building An Audience Loyalty Ecosystem](https://www.searchenginejournal.com/google-is-building-an-audience-loyalty-ecosystem/578690/)** 🔴
-   — *Search Engine Journal* · 2026-06-12
-   > Google traffic is harder to come by. Its newest publisher features won't bring it back; they're built to reward loyal, engaged audiences instead....
-
-3. **[AI Search Runs On Two Memory Systems. The Platforms Don’t Use Them The Same Way via @sejournal, @DuaneForrester](https://www.searchenginejournal.com/ai-search-runs-on-two-memory-systems-the-platforms-dont-use-them-the-same-way/578192/)** 🔴
-   — *Search Engine Journal* · 2026-06-12
-   > Parametric memory and retrieval are two different problems with two different fixes. Most teams are solving the wrong one without knowing it....
-
-4. **[YouTube Brings In-App Sharing & Messaging To The U.S. via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/youtube-brings-in-app-sharing-messaging-to-the-u-s/578927/)** 🔴
-   — *Search Engine Journal* · 2026-06-12
-   > YouTube is expanding in-app video sharing and messaging to eligible adults in more markets, reviving a version of its messaging feature removed in 2019....
-
-5. **[5 AI Search Shifts Marketers Can’t Afford to Miss Before Q3 via @sejournal, @hethr_campbell](https://www.searchenginejournal.com/5-ai-search-shifts-marketers-cant-afford-to-miss-before-q3/579008/)** 🔴
-   — *Search Engine Journal* · 2026-06-12
-   > Stay informed about AI search trends and their effect on your website's performance. Prepare for the future of search marketing....
-
-6. **[AI Bots Keep Overloading Servers. Should Website Owners Keep Paying? via @sejournal, @martinibuster](https://www.searchenginejournal.com/ai-bots-keep-overloading-servers-should-website-owners-keep-paying/579018/)** 🔴
-   — *Search Engine Journal* · 2026-06-12
-   > With 80% of AI traffic draining website infrastructure for model training, what can you do to fight back without affecting search visibility?...
-
-7. **[Google’s Agent-Friendly Checklist Is The Accessibility Audit Restated via @sejournal, @slobodanmanic](https://www.searchenginejournal.com/googles-agent-friendly-checklist-is-the-accessibility-audit-restated/575495/)** 🔴
-   — *Search Engine Journal* · 2026-06-12
-   > Stop running accessibility and agent-readiness audits on separate quarterly cycles. They're the same audit. Here's the evidence, and the one fix to make first....
-
-8. **[Why GSC Impressions Are Up But Traffic Is Falling: 4 Things To Consider First – Ask An SEO via @sejournal, @rollerblader](https://www.searchenginejournal.com/ask-an-seo-why-gsc-impressions-are-up-but-traffic-is-falling-4-things-to-consider-first/569246/)** 🔴
+1. **[Why GSC Impressions Are Up But Traffic Is Falling: 4 Things To Consider First – Ask An SEO via @sejournal, @rollerblader](https://www.searchenginejournal.com/ask-an-seo-why-gsc-impressions-are-up-but-traffic-is-falling-4-things-to-consider-first/569246/)** 🔴
    — *Search Engine Journal* · 2026-06-16
    > Rising impressions with falling traffic often stems from SERP changes, AI features, irrelevant rankings, or new content indexing....
+
+2. **[Schema, LLMs & The Low Bar For ‘Evidence’ In GEO](https://www.searchenginejournal.com/schema-llms-the-low-bar-for-evidence-in-geo/576090/)** 🔴
+   — *Search Engine Journal* · 2026-06-16
+   > Should you use schema for AI search visibility? Yes, but not for the reasons most consultants are selling. A breakdown of what the evidence supports....
+
+3. **[Microsoft Advertising Launches Product Explorer via @sejournal, @brookeosmundson](https://www.searchenginejournal.com/microsoft-advertising-launches-product-explorer/579316/)** 🔴
+   — *Search Engine Journal* · 2026-06-16
+   > Microsoft Advertising launches Product Explorer, a new Merchant Center tool that helps advertisers analyze feed health, product status, and performance data....
+
+4. **[Agentic Commerce For Small Merchants: Which Protocol Spec Actually Matters For Your Website via @sejournal, @slobodanmanic](https://www.searchenginejournal.com/agentic-commerce-for-small-merchants-which-protocol-spec-matters-for-your-website/575503/)** 🔴
+   — *Search Engine Journal* · 2026-06-16
+   > If you sell on a major SMB platform, agentic commerce is already being implemented. Here's what to confirm in your admin before the traffic arrives....
+
+5. **[AI Mode Sends A Different Visitor. Your Website Wasn’t Built For Them via @sejournal, @slobodanmanic](https://www.searchenginejournal.com/ai-mode-sends-a-different-visitor-your-website-wasnt-built-for-them/576185/)** 🔴
+   — *Search Engine Journal* · 2026-06-19
+   > Pull your top AI-referred landing pages. Can this visitor complete their task within 30 seconds? Here's what to do when the answer is no....
+
+6. **[Google Exposes The Fundamental Flaw Of LLMs.txt via @sejournal, @martinibuster](https://www.searchenginejournal.com/google-exposes-llms-txt-flaw/579814/)** 🔴
+   — *Search Engine Journal* · 2026-06-19
+   > Google says a core assumption driving LLMs.txt adoption conflicts with the purpose its creators originally intended....
+
+7. **[Rank And AI Citation Aren’t The Same Number via @sejournal, @DuaneForrester](https://www.searchenginejournal.com/rank-and-ai-citation-arent-the-same-number/579202/)** 🔴
+   — *Search Engine Journal* · 2026-06-19
+   > A model breaks your prompt into several short retrieval queries before anything hits an index. Prompt length tells you almost nothing about search behavior....
+
+8. **[Google, Microsoft Back Draft AI Agent Discovery Spec via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-microsoft-back-draft-ai-agent-discovery-spec/579894/)** 🔴
+   — *Search Engine Journal* · 2026-06-19
+   > A coalition including Google, Microsoft, and GitHub published Agentic Resource Discovery, an open draft spec for how AI agents find and verify tools online....
 
 ---
 
 ## 📊 Source Breakdown
 
 - **Search Engine Journal**: 16 articles
-- **Ahrefs Blog**: 8 articles
 - **Reddit: r/SEO**: 7 articles
+- **Ahrefs Blog**: 7 articles
 - **SEMrush Blog**: 7 articles
 - **Google Search Status**: 2 articles
 
@@ -56,7 +56,7 @@ The most important articles from the week, ranked by impact.
 
 ## 🏷️ Trending Topics
 
-`AI overview` (5) · `core update` (2) · `internal link` (1) · `indexing` (1) · `schema` (1) · `crawl` (1) · `local SEO` (1)
+`AI overview` (4) · `core update` (2) · `indexing` (1) · `schema` (1) · `crawl` (1) · `local SEO` (1) · `landing page` (1) · `google update` (1)
 
 ---
 
@@ -68,4 +68,4 @@ Based on this week's signals:
 - Monitor any 🔴 Action items you haven't addressed yet
 - Review 🟡 Watch items for updates
 
-*Generated: 2026-06-16 13:24 UTC*
+*Generated: 2026-06-19 12:42 UTC*
