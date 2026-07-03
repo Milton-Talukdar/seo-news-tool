@@ -1,8 +1,8 @@
 # Week 27, 2026 Summary
 
-**2026-06-26 → 2026-06-30** · 2 reports · 36 articles
+**2026-06-30 → 2026-07-03** · 2 reports · 33 articles
 
-> 🔴 16 Action · 🟡 4 Watch · 🟢 10 Learn · 📰 6 FYI
+> 🔴 16 Action · 🟡 3 Watch · 🟢 10 Learn · 📰 4 FYI
 
 ---
 
@@ -10,53 +10,52 @@
 
 The most important articles from the week, ranked by impact.
 
-1. **[81.8% Of My ‘AI Assistant’ Traffic Was Fake. The Googlebot Number Was Worse via @sejournal, @DuaneForrester](https://www.searchenginejournal.com/my-ai-assistant-traffic-was-fake-the-googlebot-number-was-worse/580052/)** 🔴
-   — *Search Engine Journal* · 2026-06-26
-   > ClaudeBot outpaced Googlebot on a new site. Here's what verified crawl data actually looks like, and how to get your own....
-
-2. **[WordPress Developers Say New AI Feature Does Not Belong In Core via @sejournal, @martinibuster](https://www.searchenginejournal.com/wordpress-new-ai-feature/580500/)** 🔴
-   — *Search Engine Journal* · 2026-06-26
-   > WordPress developers question whether the platform's AI ambitions are pulling attention away from what users have been asking for all along....
-
-3. **[WP Rocket Now Offers Free CDN For Your Most Important Pages via @sejournal, @martinibuster](https://www.searchenginejournal.com/wp-rocket-now-offers-free-cdn-for-your-most-important-pages/580516/)** 🔴
-   — *Search Engine Journal* · 2026-06-26
-   > WP Rocket now offers free CDN, lowering the barrier to meaningful performance improvements on the most important pages....
-
-4. **[Google Gemini Can Now Control Your Computer. Hackers Are Already Targeting AI Agents via @sejournal, @martinibuster](https://www.searchenginejournal.com/google-gemini-can-now-control-your-computer-hackers-are-already-targeting-ai-agents/580578/)** 🔴
-   — *Search Engine Journal* · 2026-06-26
-   > Google warns that websites can expose AI agents to hidden traps for agentic AI navigating the open web....
-
-5. **[Google Answers Question About SEO For AI Agents via @sejournal, @martinibuster](https://www.searchenginejournal.com/google-seo-for-ai-agents/580589/)** 🔴
-   — *Search Engine Journal* · 2026-06-26
-   > Google's John Mueller answered whether Google Gemini's new AI agents change the rules for SEO....
-
-6. **[Buying Reddit To Win AI Citations Is The New Link Farm via @sejournal, @slobodanmanic](https://www.searchenginejournal.com/buying-reddit-to-win-ai-citations-is-the-new-link-farm/578016/)** 🔴
+1. **[Buying Reddit To Win AI Citations Is The New Link Farm via @sejournal, @slobodanmanic](https://www.searchenginejournal.com/buying-reddit-to-win-ai-citations-is-the-new-link-farm/578016/)** 🔴
    — *Search Engine Journal* · 2026-06-30
    > Bought Reddit citations will be filtered the way Penguin filtered bought links. The only strategy that compounds on the agentic web is being real....
 
-7. **[Google Defends AI Training As Fair Use In Governance Paper via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-defends-ai-training-as-fair-use-in-governance-paper/580776/)** 🔴
+2. **[Google Defends AI Training As Fair Use In Governance Paper via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-defends-ai-training-as-fair-use-in-governance-paper/580776/)** 🔴
    — *Search Engine Journal* · 2026-06-30
    > Google's AI governance paper argues public-web training should remain fair use while pointing to opt-out controls, takedowns, and paid deals for specialized content....
 
-8. **[The Absolute Best Way To Write Meta Descriptions via @sejournal, @martinibuster](https://www.searchenginejournal.com/the-absolute-best-way-to-write-meta-descriptions/581119/)** 🔴
+3. **[The Absolute Best Way To Write Meta Descriptions via @sejournal, @martinibuster](https://www.searchenginejournal.com/the-absolute-best-way-to-write-meta-descriptions/581119/)** 🔴
    — *Search Engine Journal* · 2026-06-30
    > Google rewrites meta descriptions. Here is what you can do to take back control of those snippets....
+
+4. **[CTR Is Sky High In 2026 That Doesn’t Mean Your Ads Are Working](https://www.searchenginejournal.com/ctr-is-sky-high-in-2026-that-doesnt-mean-your-ads-are-working/577744/)** 🔴
+   — *Search Engine Journal* · 2026-06-30
+   > High click-through rates no longer guarantee advertising success due to automated bidding and AI optimization changing traditional metrics....
+
+5. **[Cloudflare’s AI Crawler Rules Can Block Googlebot via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/cloudflares-ai-crawler-rules-can-block-googlebot/581385/)** 🔴
+   — *Search Engine Journal* · 2026-07-03
+   > Cloudflare now lets all sites manage AI crawlers as Search, Agent, or Training, with Sept. 15 defaults that can block Googlebot for sites blocking training....
+
+6. **[Google’s DMCA Crisis Is Disrupting The Web. It Will Only Get Worse. via @sejournal, @martinibuster](https://www.searchenginejournal.com/googles-dmca-crisis-is-disrupting-the-web-it-will-only-get-worse/581340/)** 🔴
+   — *Search Engine Journal* · 2026-07-03
+   > Google's DMCA Crisis is turning a copyright protection system into a tool that bad actors can use against publishers....
+
+7. **[Google Ends Cache-Served AMP Pages In Search via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-ends-cache-served-amp-pages-in-search/581405/)** 🔴
+   — *Search Engine Journal* · 2026-07-03
+   > Google Search now takes searchers directly to a domain's AMP host pages, ending the viewer/cache serving path. AMP still ranks as normal....
+
+8. **[AI Search Is Nothing Without SEO & It Knows It via @sejournal, @TaylorDanRW](https://www.searchenginejournal.com/ai-search-is-nothing-without-seo-it-knows-it/580452/)** 🔴
+   — *Search Engine Journal* · 2026-07-03
+   > Technical SEO now sits at the center of AI search readiness, giving LLMs the structure and signals they need to retrieve and cite content....
 
 ---
 
 ## 📊 Source Breakdown
 
 - **Search Engine Journal**: 16 articles
-- **Reddit: r/SEO**: 10 articles
-- **SEMrush Blog**: 7 articles
+- **Reddit: r/SEO**: 9 articles
+- **SEMrush Blog**: 6 articles
 - **Google Search Status**: 2 articles
-- **Ahrefs Blog**: 1 articles
 
 ---
 
 ## 🏷️ Trending Topics
 
-`crawl` (2) · `E-E-A-T` (2) · `internal link` (2) · `sitemap` (1) · `nofollow` (1) · `AI overview` (1)
+`internal link` (2) · `nofollow` (1) · `AI overview` (1) · `E-E-A-T` (1) · `crawl` (1) · `structured data` (1)
 
 ---
 
@@ -68,4 +67,4 @@ Based on this week's signals:
 - Monitor any 🔴 Action items you haven't addressed yet
 - Review 🟡 Watch items for updates
 
-*Generated: 2026-06-30 11:40 UTC*
+*Generated: 2026-07-03 11:27 UTC*
