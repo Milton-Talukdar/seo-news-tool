@@ -1,8 +1,8 @@
-# Week 27, 2026 Summary
+# Week 28, 2026 Summary
 
-**2026-06-30 → 2026-07-03** · 2 reports · 33 articles
+**2026-07-03 → 2026-07-07** · 2 reports · 36 articles
 
-> 🔴 16 Action · 🟡 3 Watch · 🟢 10 Learn · 📰 4 FYI
+> 🔴 14 Action · 🟡 5 Watch · 🟢 10 Learn · 📰 7 FYI
 
 ---
 
@@ -10,37 +10,37 @@
 
 The most important articles from the week, ranked by impact.
 
-1. **[Buying Reddit To Win AI Citations Is The New Link Farm via @sejournal, @slobodanmanic](https://www.searchenginejournal.com/buying-reddit-to-win-ai-citations-is-the-new-link-farm/578016/)** 🔴
-   — *Search Engine Journal* · 2026-06-30
-   > Bought Reddit citations will be filtered the way Penguin filtered bought links. The only strategy that compounds on the agentic web is being real....
-
-2. **[Google Defends AI Training As Fair Use In Governance Paper via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-defends-ai-training-as-fair-use-in-governance-paper/580776/)** 🔴
-   — *Search Engine Journal* · 2026-06-30
-   > Google's AI governance paper argues public-web training should remain fair use while pointing to opt-out controls, takedowns, and paid deals for specialized content....
-
-3. **[The Absolute Best Way To Write Meta Descriptions via @sejournal, @martinibuster](https://www.searchenginejournal.com/the-absolute-best-way-to-write-meta-descriptions/581119/)** 🔴
-   — *Search Engine Journal* · 2026-06-30
-   > Google rewrites meta descriptions. Here is what you can do to take back control of those snippets....
-
-4. **[CTR Is Sky High In 2026 That Doesn’t Mean Your Ads Are Working](https://www.searchenginejournal.com/ctr-is-sky-high-in-2026-that-doesnt-mean-your-ads-are-working/577744/)** 🔴
-   — *Search Engine Journal* · 2026-06-30
-   > High click-through rates no longer guarantee advertising success due to automated bidding and AI optimization changing traditional metrics....
-
-5. **[Cloudflare’s AI Crawler Rules Can Block Googlebot via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/cloudflares-ai-crawler-rules-can-block-googlebot/581385/)** 🔴
+1. **[Cloudflare’s AI Crawler Rules Can Block Googlebot via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/cloudflares-ai-crawler-rules-can-block-googlebot/581385/)** 🔴
    — *Search Engine Journal* · 2026-07-03
    > Cloudflare now lets all sites manage AI crawlers as Search, Agent, or Training, with Sept. 15 defaults that can block Googlebot for sites blocking training....
 
-6. **[Google’s DMCA Crisis Is Disrupting The Web. It Will Only Get Worse. via @sejournal, @martinibuster](https://www.searchenginejournal.com/googles-dmca-crisis-is-disrupting-the-web-it-will-only-get-worse/581340/)** 🔴
+2. **[Google’s DMCA Crisis Is Disrupting The Web. It Will Only Get Worse. via @sejournal, @martinibuster](https://www.searchenginejournal.com/googles-dmca-crisis-is-disrupting-the-web-it-will-only-get-worse/581340/)** 🔴
    — *Search Engine Journal* · 2026-07-03
    > Google's DMCA Crisis is turning a copyright protection system into a tool that bad actors can use against publishers....
 
-7. **[Google Ends Cache-Served AMP Pages In Search via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-ends-cache-served-amp-pages-in-search/581405/)** 🔴
+3. **[Google Ends Cache-Served AMP Pages In Search via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-ends-cache-served-amp-pages-in-search/581405/)** 🔴
    — *Search Engine Journal* · 2026-07-03
    > Google Search now takes searchers directly to a domain's AMP host pages, ending the viewer/cache serving path. AMP still ranks as normal....
 
-8. **[AI Search Is Nothing Without SEO & It Knows It via @sejournal, @TaylorDanRW](https://www.searchenginejournal.com/ai-search-is-nothing-without-seo-it-knows-it/580452/)** 🔴
+4. **[AI Search Is Nothing Without SEO & It Knows It via @sejournal, @TaylorDanRW](https://www.searchenginejournal.com/ai-search-is-nothing-without-seo-it-knows-it/580452/)** 🔴
    — *Search Engine Journal* · 2026-07-03
    > Technical SEO now sits at the center of AI search readiness, giving LLMs the structure and signals they need to retrieve and cite content....
+
+5. **[Safari’s New MCP Server Lets AI Debug Your Core Web Vitals To Improve SEO via @sejournal, @martinibuster](https://www.searchenginejournal.com/safaris-mcp-server/581487/)** 🔴
+   — *Search Engine Journal* · 2026-07-07
+   > Apple's WebKit announced a new MCP server for Safari that enables AI-based website debugging for SEO and Core Web Vitals....
+
+6. **[Google Answers Question About LLMs-Author.txt For SEO via @sejournal, @martinibuster](https://www.searchenginejournal.com/google-answers-question-about-llms-author-txt-for-seo/581547/)** 🔴
+   — *Search Engine Journal* · 2026-07-07
+   > Google's John Mueller responded to an SEO using LLMs-Author.txt to separate themself from others with the same name....
+
+7. **[Build An OKF Brain Like Mine! via @sejournal, @marie_haynes](https://www.searchenginejournal.com/build-an-okf-brain-like-mine/580661/)** 🔴
+   — *Search Engine Journal* · 2026-07-07
+   > Build your own AI-ready knowledge system with insights from Marie Haynes on using Google’s Open Knowledge Format for search and automation....
+
+8. **[The Web Is Growing A Second Layer – Almost A Third Head via @sejournal, @demirie](https://www.searchenginejournal.com/the-web-is-growing-a-second-layer-almost-a-third-head/581147/)** 🔴
+   — *Search Engine Journal* · 2026-07-07
+   > Google's OKF and ARD specs are making noise, but HTML still runs discovery. Here's what actually matters for SEO in the new agentic-web stack....
 
 ---
 
@@ -49,13 +49,14 @@ The most important articles from the week, ranked by impact.
 - **Search Engine Journal**: 16 articles
 - **Reddit: r/SEO**: 9 articles
 - **SEMrush Blog**: 6 articles
+- **Ahrefs Blog**: 3 articles
 - **Google Search Status**: 2 articles
 
 ---
 
 ## 🏷️ Trending Topics
 
-`internal link` (2) · `nofollow` (1) · `AI overview` (1) · `E-E-A-T` (1) · `crawl` (1) · `structured data` (1)
+`crawl` (1) · `structured data` (1) · `core web vitals` (1) · `AI overview` (1)
 
 ---
 
@@ -67,4 +68,4 @@ Based on this week's signals:
 - Monitor any 🔴 Action items you haven't addressed yet
 - Review 🟡 Watch items for updates
 
-*Generated: 2026-07-03 11:27 UTC*
+*Generated: 2026-07-07 11:40 UTC*
