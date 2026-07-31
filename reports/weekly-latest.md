@@ -1,8 +1,8 @@
 # Week 31, 2026 Summary
 
-**2026-07-24 → 2026-07-28** · 2 reports · 42 articles
+**2026-07-28 → 2026-07-31** · 2 reports · 37 articles
 
-> 🔴 16 Action · 🟡 9 Watch · 🟢 10 Learn · 📰 7 FYI
+> 🔴 13 Action · 🟡 7 Watch · 🟢 10 Learn · 📰 7 FYI
 
 ---
 
@@ -10,53 +10,52 @@
 
 The most important articles from the week, ranked by impact.
 
-1. **[Google Search Revenue Growth Eases After A Year Of Acceleration via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/google-search-revenue-growth-eases-after-a-year-of-acceleration/583181/)** 🔴
-   — *Search Engine Journal* · 2026-07-24
-   > Alphabet's Q2 Search revenue rose 17% to $63.27 billion, its first easing after four quarters of acceleration. Google credited retail and Gemini integration....
-
-2. **[Pichai Says Google Needs Gemini 4 To Compete At The Frontier via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/pichai-says-google-needs-gemini-4-to-compete-at-the-frontier/583214/)** 🔴
-   — *Search Engine Journal* · 2026-07-24
-   > On Alphabet's Q2 call, Pichai named coding an area to improve, saying Google needs Gemini 4 for the next frontier, as 3.5 Pro stays delayed....
-
-3. **[Google Went ‘Not Provided’ In 2011 And Blinded Us, ChatGPT Just Shipped Its Version via @sejournal, @DuaneForrester](https://www.searchenginejournal.com/google-went-not-provided-in-2011-and-blinded-us-chatgpt-just-shipped-its-version/582839/)** 🔴
-   — *Search Engine Journal* · 2026-07-24
-   > Waiting for ChatGPT to prove your ROI? The not-provided lesson says stop. Here's the measurement work you can own instead....
-
-4. **[Alphabet Q2 Earnings Show $5.85 Billion Negative Free Cash Flow via @sejournal, @martinibuster](https://www.searchenginejournal.com/google-q2-earnings-show-5-85-billion-negative-free-cash-flow/583259/)** 🔴
-   — *Search Engine Journal* · 2026-07-24
-   > Alphabet's Q2 release shows Google's infrastructure spending caused it to report a negative free cash flow of $5.85 billion dollars....
-
-5. **[YouTube Explains What Can Stop A Channel Getting Paid via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/youtube-explains-what-can-stop-a-channel-getting-paid/583096/)** 🔴
-   — *Search Engine Journal* · 2026-07-24
-   > YouTube spelled out three kinds of content that can stop a channel from getting paid, and says it's clarifying existing rules, not changing them....
-
-6. **[AI Browsers Are Backward Because Agents Never Needed The Visual Layer via @sejournal, @slobodanmanic](https://www.searchenginejournal.com/ai-browsers-are-backward-because-agents-never-needed-the-visual-layer/583056/)** 🔴
-   — *Search Engine Journal* · 2026-07-24
-   > OpenAI killed Atlas because AI browsers were always a workaround. The real fix is a website machines can actually read....
-
-7. **[Google Expands Review Guidelines And Warns Of Manual Actions via @sejournal, @martinibuster](https://www.searchenginejournal.com/google-expands-review-guidelines-and-warns-of-manual-actions/583674/)** 🔴
+1. **[Google Expands Review Guidelines And Warns Of Manual Actions via @sejournal, @martinibuster](https://www.searchenginejournal.com/google-expands-review-guidelines-and-warns-of-manual-actions/583674/)** 🔴
    — *Search Engine Journal* · 2026-07-28
    > Google expanded its review snippet documentation with new ways content can trigger a manual action....
 
-8. **[Google Ads’ Target-Based Bidding Update For Ecommerce via @sejournal, @tonyadam](https://www.searchenginejournal.com/google-ads-target-based-bidding-update-for-ecommerce/581801/)** 🔴
+2. **[Google Ads’ Target-Based Bidding Update For Ecommerce via @sejournal, @tonyadam](https://www.searchenginejournal.com/google-ads-target-based-bidding-update-for-ecommerce/581801/)** 🔴
    — *Search Engine Journal* · 2026-07-28
    > Google's August 17 update pushes budget-limited Target CPA and Target ROAS campaigns toward their stated targets, risking higher costs unless advertisers audit and adjust first....
+
+3. **[AI Video After Sora: 3 Updates You Should Make Before You Publish via @sejournal, @gregjarboe](https://www.searchenginejournal.com/ai-video-after-sora-3-updates-you-should-make-before-you-publish/583123/)** 🔴
+   — *Search Engine Journal* · 2026-07-28
+   > Before your next AI video goes live: Audit disclosure against YouTube's actual policy, produce below the ceiling, and name the human decision-maker....
+
+4. **[How Publishers Can Monetize AI Visibility](https://www.searchenginejournal.com/how-publishers-can-monetise-ai-visibility/583345/)** 🔴
+   — *Search Engine Journal* · 2026-07-28
+   > AI sends barely any traffic, but the traffic it sends is twice as engaged. Here's why publishers should care....
+
+5. **[ChatGPT Links Out Most On Travel Questions via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/chatgpt-links-out-most-on-travel-questions/583824/)** 🔴
+   — *Search Engine Journal* · 2026-07-28
+   > A new report finds ChatGPT citation rates vary sharply by topic, with travel answers citing sources far more often than education answers....
+
+6. **[Indexed Claude Chats Show Why Disallow Is Not Noindex via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/indexed-claude-chats-show-why-disallow-is-not-noindex/583852/)** 🔴
+   — *Search Engine Journal* · 2026-07-28
+   > Shared Claude chats showed up in Google. We checked the pages and found a noindex header sitting behind a robots.txt block that keeps Google out....
+
+7. **[Google SEO Test Shows What Happens In 5-Second Rendering Window via @sejournal, @martinibuster](https://www.searchenginejournal.com/google-seo-test-shows-what-happens-in-5-second-rendering-window/583878/)** 🔴
+   — *Search Engine Journal* · 2026-07-28
+   > A new SEO test shows what happens when Google's Web Rendering Service continues past five seconds: Google pauses time with a virtual clock....
+
+8. **[European Search Strategy Goes Beyond Google & Bing via @sejournal, @motokohunt](https://www.searchenginejournal.com/european-search-strategy-goes-beyond-google-bing/581780/)** 🔴
+   — *Search Engine Journal* · 2026-07-31
+   > Treat Europe as one Google market, and you'll miss Seznam, Ecosia, Zalando, and a regulatory layer that can close a door overnight....
 
 ---
 
 ## 📊 Source Breakdown
 
 - **Search Engine Journal**: 16 articles
-- **Reddit: r/SEO**: 10 articles
-- **SEMrush Blog**: 9 articles
-- **Ahrefs Blog**: 6 articles
-- **Google Search Status**: 1 articles
+- **Reddit: r/SEO**: 9 articles
+- **Ahrefs Blog**: 7 articles
+- **SEMrush Blog**: 5 articles
 
 ---
 
 ## 🏷️ Trending Topics
 
-`crawl` (2) · `landing page` (1) · `indexing` (1) · `sitemap` (1) · `canonical` (1) · `product page` (1)
+`indexing` (2) · `crawl` (2) · `sitemap` (2) · `canonical` (2) · `product page` (1) · `algorithm update` (1) · `landing page` (1) · `AI overview` (1)
 
 ---
 
@@ -68,4 +67,4 @@ Based on this week's signals:
 - Monitor any 🔴 Action items you haven't addressed yet
 - Review 🟡 Watch items for updates
 
-*Generated: 2026-07-28 11:10 UTC*
+*Generated: 2026-07-31 11:23 UTC*
