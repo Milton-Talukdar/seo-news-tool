@@ -1,8 +1,8 @@
-# Week 31, 2026 Summary
+# Week 32, 2026 Summary
 
-**2026-07-28 → 2026-07-31** · 2 reports · 37 articles
+**2026-07-31 → 2026-08-04** · 2 reports · 32 articles
 
-> 🔴 13 Action · 🟡 7 Watch · 🟢 10 Learn · 📰 7 FYI
+> 🔴 13 Action · 🟡 5 Watch · 🟢 8 Learn · 📰 6 FYI
 
 ---
 
@@ -10,52 +10,52 @@
 
 The most important articles from the week, ranked by impact.
 
-1. **[Google Expands Review Guidelines And Warns Of Manual Actions via @sejournal, @martinibuster](https://www.searchenginejournal.com/google-expands-review-guidelines-and-warns-of-manual-actions/583674/)** 🔴
-   — *Search Engine Journal* · 2026-07-28
-   > Google expanded its review snippet documentation with new ways content can trigger a manual action....
-
-2. **[Google Ads’ Target-Based Bidding Update For Ecommerce via @sejournal, @tonyadam](https://www.searchenginejournal.com/google-ads-target-based-bidding-update-for-ecommerce/581801/)** 🔴
-   — *Search Engine Journal* · 2026-07-28
-   > Google's August 17 update pushes budget-limited Target CPA and Target ROAS campaigns toward their stated targets, risking higher costs unless advertisers audit and adjust first....
-
-3. **[AI Video After Sora: 3 Updates You Should Make Before You Publish via @sejournal, @gregjarboe](https://www.searchenginejournal.com/ai-video-after-sora-3-updates-you-should-make-before-you-publish/583123/)** 🔴
-   — *Search Engine Journal* · 2026-07-28
-   > Before your next AI video goes live: Audit disclosure against YouTube's actual policy, produce below the ceiling, and name the human decision-maker....
-
-4. **[How Publishers Can Monetize AI Visibility](https://www.searchenginejournal.com/how-publishers-can-monetise-ai-visibility/583345/)** 🔴
-   — *Search Engine Journal* · 2026-07-28
-   > AI sends barely any traffic, but the traffic it sends is twice as engaged. Here's why publishers should care....
-
-5. **[ChatGPT Links Out Most On Travel Questions via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/chatgpt-links-out-most-on-travel-questions/583824/)** 🔴
-   — *Search Engine Journal* · 2026-07-28
-   > A new report finds ChatGPT citation rates vary sharply by topic, with travel answers citing sources far more often than education answers....
-
-6. **[Indexed Claude Chats Show Why Disallow Is Not Noindex via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/indexed-claude-chats-show-why-disallow-is-not-noindex/583852/)** 🔴
-   — *Search Engine Journal* · 2026-07-28
-   > Shared Claude chats showed up in Google. We checked the pages and found a noindex header sitting behind a robots.txt block that keeps Google out....
-
-7. **[Google SEO Test Shows What Happens In 5-Second Rendering Window via @sejournal, @martinibuster](https://www.searchenginejournal.com/google-seo-test-shows-what-happens-in-5-second-rendering-window/583878/)** 🔴
-   — *Search Engine Journal* · 2026-07-28
-   > A new SEO test shows what happens when Google's Web Rendering Service continues past five seconds: Google pauses time with a virtual clock....
-
-8. **[European Search Strategy Goes Beyond Google & Bing via @sejournal, @motokohunt](https://www.searchenginejournal.com/european-search-strategy-goes-beyond-google-bing/581780/)** 🔴
+1. **[European Search Strategy Goes Beyond Google & Bing via @sejournal, @motokohunt](https://www.searchenginejournal.com/european-search-strategy-goes-beyond-google-bing/581780/)** 🔴
    — *Search Engine Journal* · 2026-07-31
    > Treat Europe as one Google market, and you'll miss Seznam, Ecosia, Zalando, and a regulatory layer that can close a door overnight....
+
+2. **[Entity Mapping Works On Google. Does Any Of It Reach ChatGPT? via @sejournal, @DuaneForrester](https://www.searchenginejournal.com/entity-mapping-works-on-google-does-any-of-it-reach-chatgpt/583663/)** 🔴
+   — *Search Engine Journal* · 2026-07-31
+   > A language model has no node to feed. Here's why on-site entity work moves Google's graph and never touches what the model learned....
+
+3. **[WP Engine Partners With BigCommerce To Scale WordPress Stores via @sejournal, @martinibuster](https://www.searchenginejournal.com/wp-engine-bigcommerce-wordpress-stores/584343/)** 🔴
+   — *Search Engine Journal* · 2026-07-31
+   > WP Engine announced Commerce Connect, a safe way for fast-growth brands to modernize and scale while preserving design, SEO, and user experience....
+
+4. **[Google Recommends Using 304 Status Code To Conserve Crawl Budget via @sejournal, @martinibuster](https://www.searchenginejournal.com/google-recommends-using-304-status-code-to-conserve-crawl-budget/584543/)** 🔴
+   — *Search Engine Journal* · 2026-08-04
+   > Google's updated crawl budget documentation recommends serving a 304 response code to Googlebot for pages that haven't changed....
+
+5. **[Reviews, Reputation & Listings: The Local Signals AI Now Reads via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/reviews-reputation-listings-the-local-signals-ai-now-reads/583795/)** 🔴
+   — *Search Engine Journal* · 2026-08-04
+   > Listing inconsistencies, review language, and third-party citations now decide whether AI assistants name your business. Fix them in this order before chasing AI visibility tactics....
+
+6. **[Google’s AI Image Generation In Google Earth Literally Became Disastrous via @sejournal, @martinibuster](https://www.searchenginejournal.com/googles-ai-image-generation-in-google-earth-literally-became-disastrous/584536/)** 🔴
+   — *Search Engine Journal* · 2026-08-04
+   > Google Earth's AI image generator was rolled back after the internet used it to create realistic scenes of destruction....
+
+7. **[Free Advanced Link Training Lessons via @sejournal, @martinibuster](https://www.searchenginejournal.com/free-advanced-link-training-lessons/584551/)** 🔴
+   — *Search Engine Journal* · 2026-08-04
+   > One of the most advanced SEOs of all time, Bill Hartzer, is giving away free advanced link training lessons....
+
+8. **[Why AI Recommends Your Competitor & What To Do About It via @sejournal, @lorenbaker](https://www.searchenginejournal.com/why-ai-recommends-your-competitor-what-to-do-about-it/584488/)** 🔴
+   — *Search Engine Journal* · 2026-08-04
+   > Kris Jones says one word decides whether AI recommends your brand: synthesis. Here's what that means for where you spend next quarter's budget....
 
 ---
 
 ## 📊 Source Breakdown
 
 - **Search Engine Journal**: 16 articles
-- **Reddit: r/SEO**: 9 articles
-- **Ahrefs Blog**: 7 articles
-- **SEMrush Blog**: 5 articles
+- **Reddit: r/SEO**: 8 articles
+- **SEMrush Blog**: 6 articles
+- **Ahrefs Blog**: 2 articles
 
 ---
 
 ## 🏷️ Trending Topics
 
-`indexing` (2) · `crawl` (2) · `sitemap` (2) · `canonical` (2) · `product page` (1) · `algorithm update` (1) · `landing page` (1) · `AI overview` (1)
+`crawl` (2) · `algorithm update` (1) · `indexing` (1) · `sitemap` (1) · `canonical` (1) · `landing page` (1) · `AI overview` (1) · `schema` (1)
 
 ---
 
@@ -67,4 +67,4 @@ Based on this week's signals:
 - Monitor any 🔴 Action items you haven't addressed yet
 - Review 🟡 Watch items for updates
 
-*Generated: 2026-07-31 11:23 UTC*
+*Generated: 2026-08-04 11:17 UTC*
