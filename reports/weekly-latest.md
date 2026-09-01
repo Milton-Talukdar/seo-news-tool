@@ -1,8 +1,8 @@
-# Week 35, 2026 Summary
+# Week 36, 2026 Summary
 
-**2026-08-25 → 2026-08-28** · 2 reports · 33 articles
+**2026-08-28 → 2026-09-01** · 2 reports · 35 articles
 
-> 🔴 8 Action · 🟡 5 Watch · 🟢 4 Learn · 📰 16 FYI
+> 🔴 15 Action · 🟡 9 Watch · 🟢 5 Learn · 📰 6 FYI
 
 ---
 
@@ -38,24 +38,25 @@ The most important articles from the week, ranked by impact.
    — *Search Engine Journal* · 2026-08-28
    > When Meta's ad AI altered approved creative without warning, it exposed a deeper problem: marketing teams rarely define who owns AI mistakes after sign-off....
 
-8. **[How To Audit Publisher Websites In 2026](https://www.searchenginejournal.com/how-to-audit-publisher-websites-in-2026/586349/)** 🟢
-   — *Search Engine Journal* · 2026-08-25
-   > A practical framework for auditing publisher websites in 2026, covering technical SEO, content quality, E-E-A-T, and entity consistency across passive and active discovery channels....
+8. **[ChatGPT Is Now A “Very Large Online Search Engine” In The EU via @sejournal, @MattGSouthern](https://www.searchenginejournal.com/chatgpt-is-now-a-very-large-online-search-engine-in-the-eu/587801/)** 🔴
+   — *Search Engine Journal* · 2026-09-01
+   > ChatGPT is now a very large online search engine under the EU Digital Services Act after OpenAI reported about 159.1 million average monthly search recipients....
 
 ---
 
 ## 📊 Source Breakdown
 
 - **Search Engine Journal**: 16 articles
-- **Reddit: r/SEO**: 8 articles
-- **SEMrush Blog**: 5 articles
-- **Ahrefs Blog**: 4 articles
+- **Reddit: r/SEO**: 9 articles
+- **Ahrefs Blog**: 5 articles
+- **SEMrush Blog**: 4 articles
+- **Google Search Status**: 1 articles
 
 ---
 
 ## 🏷️ Trending Topics
 
-`AI overview` (2) · `crawl` (1) · `E-E-A-T` (1) · `google update` (1) · `internal link` (1) · `duplicate content` (1)
+`AI overview` (3) · `internal link` (2) · `google update` (1) · `duplicate content` (1) · `sitemap` (1) · `nofollow` (1) · `canonical` (1) · `hreflang` (1)
 
 ---
 
@@ -67,4 +68,4 @@ Based on this week's signals:
 - Monitor any 🔴 Action items you haven't addressed yet
 - Review 🟡 Watch items for updates
 
-*Generated: 2026-08-28 20:32 UTC*
+*Generated: 2026-09-01 13:49 UTC*
